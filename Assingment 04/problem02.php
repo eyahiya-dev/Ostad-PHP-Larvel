@@ -6,6 +6,18 @@
 Write a PHP function to concatenate two strings, but with the second string starting from the end of the first string.
 */
 
+
+// solved this problem using reverse function
+
+function concatRev ($value1){        
+    $value2 = strrev($value1);
+    $value1;
+    return $value1 . " " . $value2;    
+}
+// print_r(concatRev('Bangladesh'));
+print_r(concatRev('Bangladesh')."\n");
+
+
 // simple solution
 
 function concatStr ($value1, $value2){
@@ -36,3 +48,4 @@ concatStr3('hello', 'bangladesh');
 
 // see the output
 print_r(concatStr3('hello', 'bangladesh')); 
+
