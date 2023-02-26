@@ -41,17 +41,17 @@ $honda->set_model('Civic');
 $honda->set_year('2015');
 
 
-echo $toyota->get_make(). "\n";
+echo "Make: ".$toyota->get_make(). "\n";
 
-echo $toyota->get_model(). "\n";
+echo "Model: ".$toyota->get_model(). "\n";
 
-echo $toyota->get_year(). "\n";
+echo "Year: ".$toyota->get_year(). "\n";
 
-echo $honda->get_make(). "\n";
+echo "Make: ".$honda->get_make(). "\n";
 
-echo $honda->get_model(). "\n";
+echo "Model: ".$honda->get_model(). "\n";
 
-echo $honda->get_year(). "\n";
+echo "Year: ".$honda->get_year(). "\n";
 
 
 ?>
